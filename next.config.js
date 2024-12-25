@@ -10,5 +10,8 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = {
+  reactStrictMode: true,
+  output: 'standalone', // Required for deployment to Netlify
+};
 
